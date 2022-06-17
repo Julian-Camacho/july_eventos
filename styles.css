@@ -2,7 +2,8 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: sans-serif;    
+    font-family: sans-serif;
+    /* background-color: #eee;     */
   }
 
   a {
@@ -21,10 +22,10 @@
     align-items: center;
     width: 100%;
     height: 60px;
-    position: sticky;
+    position: fixed;
     top: 0%;
     z-index: 1;
-    /* background-color: #eee; */
+    background-color: #ddd;
   }
 
   .menu {
@@ -55,7 +56,7 @@
   }
 
   .containerCarrousel {
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
   }
 
@@ -63,15 +64,15 @@
     height: 100%;
     width: 100%;
     position: relative;
+    padding: 20px;
+    padding-top: 80px;
   }
 
   .imgCarrousel {
-    /* background-color: #eee; */
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;    
-    padding: 60px 0px 30px 0px;
+    justify-content: center;
   }
 
   .imgCarrousel img {
@@ -114,7 +115,7 @@
 
   .title,
   .servTitle {
-    margin-top: 60px;
+    margin-top: 80px;
     padding: 20px;
     font-size: 48px;
     font-weight: bold;
