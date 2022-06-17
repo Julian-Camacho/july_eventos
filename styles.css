@@ -7,6 +7,7 @@
 
   a {
     text-decoration: none;
+    color: black;
   }
 
   ul li {
@@ -92,8 +93,41 @@
   a i {
     font-size: 36px;
     font-weight: bold;
+    color: black;
   }
 
   a i:active {
     color: black;
+  }
+
+  a i:visited {
+    color: black;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+  }
+
+  .title {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .picture img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+  }
+
+  .description {
+    max-width: 60%;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
   }
