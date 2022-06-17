@@ -190,3 +190,7 @@
 #contact li {
     margin: 0px 50px;
 }
+
+#contact li a i {
+  font-size: 20px;
+}
