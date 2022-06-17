@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
 
   .menu {
@@ -26,4 +27,56 @@
 
   .menu li {
     margin: 15px;
+  }
+
+  .containerCarrousel {
+    border: 1px solid yellow;
+    height: 90vh;
+    overflow: hidden;
+  }
+
+  .itemCarrousel {
+    border: 1px solid;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .imgCarrousel {
+    border: 1px solid;
+    /* background-color: violet; */
+    height: 100%;
+    width: 100%;
+  }
+
+  .imgCarrousel img {
+    height: 100%;
+    width: auto;
+  }
+
+  .navCarrousel {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #itemOne {
+    background-color: lightblue;
+  }
+
+  #itemTwo {
+    background-color: violet;
+  }
+
+  #itemThree {
+    background-color: #eee;
+  }
+
+  #itemFour {
+    background-color: goldenrod;
   }
